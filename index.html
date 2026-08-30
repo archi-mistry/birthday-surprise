@@ -1,0 +1,355 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#25060d">
+  <meta name="description" content="A birthday surprise for Pratik from Archi ❤️">
+  <title>Happy Birthday, Bubu ❤️</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="top-progress" aria-hidden="true"><div id="progress-bar"></div></div>
+
+  <button id="music-btn" class="music-btn" type="button" aria-label="Play music">
+    ♫ Play Music
+  </button>
+
+  <!-- Optional: put music.mp3 in this same folder. -->
+  <audio id="bg-music" loop preload="metadata">
+    <source src="music.mp3" type="audio/mpeg">
+  </audio>
+
+  <main id="site" class="site">
+
+    <!-- SCREEN 1 -->
+    <section class="screen screen-dark hero" id="screen-1">
+      <div class="glow glow-one"></div>
+      <div class="glow glow-two"></div>
+      <div class="hero-heart" aria-hidden="true">♥</div>
+
+      <div class="content">
+        <p class="eyebrow reveal">A little something for you</p>
+        <h1 class="hero-title reveal">Hey Bubu... <span>❤️</span></h1>
+        <p class="subtitle reveal delay-1">I made something for you.</p>
+
+        <button id="start-btn" class="primary-btn reveal delay-2" type="button">
+          Open Your Surprise <span>→</span>
+        </button>
+
+        <p class="micro-copy reveal delay-3">Best experienced with sound on ✨</p>
+      </div>
+    </section>
+
+    <!-- SCREEN 2 -->
+    <section class="screen screen-dark reveal-screen" id="screen-2">
+      <div class="content">
+        <div id="countdown" class="countdown" aria-live="polite">3</div>
+
+        <div id="birthday-reveal" class="hidden">
+          <p class="eyebrow">Today is a little different...</p>
+          <h2 class="display-title">Happy Birthday</h2>
+          <h3 class="name-title">My Bubu, Pratik ❤️🎂</h3>
+          <p class="body-copy">
+            Today is your day. But I wanted to give you something a little more personal.
+          </p>
+          <button class="primary-btn next-btn" type="button">Keep going →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREEN 3 -->
+    <section class="screen screen-cream" id="screen-3">
+      <div class="content">
+        <p class="eyebrow eyebrow-dark">Chapter I</p>
+        <h2 class="section-title">Four months.<br><em>So many memories.</em></h2>
+
+        <p class="body-copy dark-copy">
+          It’s crazy to think that it’s only been 4 months, because somehow, in these 4 months,
+          you’ve given me so many memories that already feel so special to me.
+        </p>
+
+        <div class="memory-grid">
+          <div class="memory-card"><small>01</small><span>First dates ❤️</span></div>
+          <div class="memory-card"><small>02</small><span>Night sneakouts 🌙</span></div>
+          <div class="memory-card"><small>03</small><span>Random moments</span></div>
+          <div class="memory-card"><small>04</small><span>Silly conversations 😂</span></div>
+          <div class="memory-card memory-wide"><small>05</small><span>All the little things 🫶🏻</span></div>
+        </div>
+
+        <p class="quote">“I wouldn't trade any of it for anything.”</p>
+        <button class="primary-btn dark-btn next-btn" type="button">Keep going →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 4 -->
+    <section class="screen screen-rose" id="screen-4">
+      <div class="content content-wide">
+        <p class="eyebrow">Chapter II</p>
+        <h2 class="screen4-title">Things I Notice<br class="desktop-break"> About You</h2>
+        <p class="section-note">Tap each one. I mean every word. ❤️</p>
+
+        <div class="notice-grid">
+          <button class="notice-card" type="button">
+            <span class="notice-head">Your efforts <b>+</b></span>
+            <span class="notice-text">
+              One thing I absolutely adore about you is your efforts. You don’t just say that you care,
+              you actually show it.
+            </span>
+          </button>
+
+          <button class="notice-card" type="button">
+            <span class="notice-head">The little things <b>+</b></span>
+            <span class="notice-text">
+              The way you notice the smallest details, remember little things I say, pay attention to
+              what makes me happy, and put effort into making moments special… honestly, Bubu,
+              aa badhu mane khub j special feel karave chhe. 🥹❤️
+            </span>
+          </button>
+
+          <button class="notice-card" type="button">
+            <span class="notice-head">Your patience <b>+</b></span>
+            <span class="notice-text">I notice them. I notice you. I notice every little effort. ❤️</span>
+          </button>
+
+          <button class="notice-card" type="button">
+            <span class="notice-head">How you care <b>+</b></span>
+            <span class="notice-text">
+              You have this beautiful way of making me feel cared for without even trying too hard.
+            </span>
+          </button>
+
+          <button class="notice-card" type="button">
+            <span class="notice-head">How comfortable we are <b>+</b></span>
+            <span class="notice-text">
+              I love how comfortable I feel with you. We can be cute, stupid, annoying, emotional,
+              crazy and completely ourselves together. 😂🫂
+            </span>
+          </button>
+        </div>
+
+        <button class="primary-btn next-btn" type="button">Next →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 5 -->
+    <section class="screen screen-playful" id="screen-5">
+      <div class="content">
+        <p class="eyebrow">A small confession...</p>
+        <h2 class="section-title light-title">Yes, I know I'm a drama queen 😂</h2>
+
+        <p class="body-copy">
+          And I know I have my <strong>silly emotional dramas, mari zidd, random mood swings and
+          unnecessary nakhra</strong> 😂😭
+        </p>
+
+        <div class="confession-box">
+          <small>But you still handle me. Somehow. 😂</small>
+          <p class="dark-copy">
+            Mane khabar chhe hu kyarek khub j ziddi chu 😭, pan tari aa patience ane efforts j mane
+            vadhu prem karave chhe. ❤️
+          </p>
+        </div>
+
+        <button class="primary-btn next-btn" type="button">Keep going →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 6 -->
+    <section class="screen screen-night" id="screen-6">
+      <div id="stars" aria-hidden="true"></div>
+      <div class="moon" aria-hidden="true"></div>
+
+      <div class="content">
+        <p class="eyebrow">Chapter III</p>
+        <h2 class="section-title light-title italic">And honestly, I miss you so much. 🥺❤️</h2>
+
+        <p class="body-copy">
+          Being away from you because of my studies and college isn’t always easy. Sometimes I just
+          wish I could meet you, hug you, annoy you, and spend time with you instead of missing you
+          from far away.
+        </p>
+
+        <p class="distance-line">But this distance is temporary, Bubu.</p>
+        <h3 class="name-title">We’ll meet very soon. 🫂❤️</h3>
+
+        <p class="body-copy">
+          All the missed hugs, dates, and time together are waiting to be made up for.
+        </p>
+
+        <button class="primary-btn next-btn" type="button">Keep going →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 7 -->
+    <section class="screen screen-soft-red" id="screen-7">
+      <div class="content">
+        <p class="eyebrow">Chapter IV</p>
+        <h2 class="section-title light-title">For Your New Year ✨</h2>
+
+        <p class="body-copy"><strong>Pratik, my Baby,</strong></p>
+        <p class="body-copy">
+          I genuinely hope this year gives you everything you deserve — happiness, success, peace,
+          lots of reasons to smile, and all the dreams you’re working so hard for.
+        </p>
+
+        <ul class="wish-list">
+          <li>Happiness <span>✨</span></li>
+          <li>Success <span>🌟</span></li>
+          <li>Peace <span>🤍</span></li>
+          <li>More smiles <span>❤️</span></li>
+          <li>Dreams coming true <span>🫶🏻</span></li>
+        </ul>
+
+        <p class="body-copy">
+          And selfishly, I hope I get to be there for many more of those moments...
+        </p>
+
+        <div class="more-list">
+          <span>More dates.</span>
+          <span>More sneakouts.</span>
+          <span>More memories.</span>
+          <span>More laughs.</span>
+          <span>More random plans.</span>
+        </div>
+
+        <p class="body-copy italic">
+          And definitely more “bas 5 minutes Haji Baby!!” moments that somehow become hours. 😂❤️
+        </p>
+
+        <button class="primary-btn next-btn" type="button">Keep going →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 8 -->
+    <section class="screen screen-deep" id="screen-8">
+      <div class="content">
+        <p class="eyebrow">Before the letter...</p>
+        <h2 class="display-title">Thank you for being YOU. ❤️</h2>
+
+        <div class="traits">
+          <span>Caring.</span>
+          <span>Kind.</span>
+          <span>Sweet.</span>
+          <span>Thoughtful.</span>
+          <span>Effortful.</span>
+        </div>
+
+        <p class="body-copy">
+          For putting in efforts that mean more to me than you probably realise.
+        </p>
+
+        <button class="primary-btn next-btn" type="button">Read My Letter →</button>
+      </div>
+    </section>
+
+    <!-- SCREEN 9 -->
+    <section class="letter-section" id="screen-9">
+      <div class="letter-wrap">
+
+        <div id="envelope-container" class="envelope-container" role="button" tabindex="0"
+             aria-label="Open your birthday letter">
+          <p class="envelope-title">Open this when you're ready 💌</p>
+          <div class="envelope" aria-hidden="true">
+            <div class="paper-preview"></div>
+            <div class="flap"></div>
+            <div class="envelope-fold"></div>
+            <div class="seal">❤️</div>
+          </div>
+          <p class="tap-label">Tap the envelope</p>
+        </div>
+
+        <article id="full-letter" class="full-letter hidden">
+          <div class="letter-paper">
+            <p class="letter-label">A letter from Archi</p>
+            <div class="letter-heart">♥</div>
+            <h2>Happy Birthday to my Bubu, Pratik ❤️🎂</h2>
+
+            <p class="salutation">My Bubu,</p>
+
+            <p>Happy birthday to the most caring, kind, sweetest and genuinely beautiful person I know. 🥹❤️</p>
+
+            <p>It’s crazy to think that it’s only been 4 months, because somehow, in these 4 months, you’ve given me so many memories that already feel so special to me. From our <strong>first date to every little date after that, our night sneakouts, random moments, silly conversations, laughs, and all the little things in between</strong> — I wouldn’t trade any of it for anything. 🫶🏻</p>
+
+            <p>One thing I absolutely adore about you is <strong>your efforts</strong>. You don’t just say that you care, you actually show it. The way you notice the smallest details, remember little things I say, pay attention to what makes me happy, and put effort into making moments special… honestly, Bubu, <strong>aa badhu mane khub j special feel karave chhe.</strong> 🥹❤️</p>
+
+            <p>You have this beautiful way of making me feel cared for without even trying too hard. Sometimes it’s the smallest things you do that stay with me the longest. And I hope you know that <strong>I notice them. I notice you. I notice every little effort.</strong> ❤️</p>
+
+            <p>And I know I have my <strong>silly emotional dramas, mari zidd, random mood swings and unnecessary nakhra</strong> 😂😭, but somehow you still handle all of it with so much patience and love. Even when I’m being stubborn or making a big deal out of something silly, you still try to understand me and do everything you can for me. <strong>Mane khabar chhe hu kyarek khub j ziddi chu 😭, pan tari aa patience ane efforts j mane vadhu prem karave chhe.</strong> ❤️</p>
+
+            <p>I love how comfortable I feel with you. I love that we can be cute, stupid, annoying, emotional, crazy and completely ourselves together. 😂🫂 And somehow, even the most ordinary moments become my favourite when they’re with you.</p>
+
+            <p>And honestly, <strong>I miss you so much.</strong> 🥺❤️ Being away from you because of my studies and college isn’t always easy. Sometimes I just wish I could meet you, hug you, annoy you, and spend time with you instead of missing you from far away. But this distance is temporary, Bubu. <strong>We’ll meet very soon</strong>, and when we do, I’m definitely making up for all the missed hugs, dates, and time together. 🫂❤️</p>
+
+            <p><strong>Pratik, my Baby,</strong> I genuinely hope this year gives you everything you deserve — happiness, success, peace, lots of reasons to smile, and all the dreams you’re working so hard for. And selfishly, I hope I get to be there for many more of those moments… more dates, more sneakouts, more memories, more laughs, more random plans, and definitely more <strong>“bas 5 minutes Haji Baby!!”</strong> moments that somehow become hours. 😂❤️</p>
+
+            <p>Thank you for being <strong>you</strong> — caring, kind, sweet, thoughtful and for putting in efforts that mean more to me than you probably realise.</p>
+
+            <p>And if I had to choose my favourite thing from these 4 months, I honestly don't think I could choose just one memory. Maybe that's because <strong>my favourite part isn't one particular date or one particular moment… it's having you in all of them.</strong> 🥹❤️</p>
+
+            <p>So today, on your birthday, I just want you to know one simple thing:</p>
+
+            <p class="letter-emphasis">I’m really, really happy that I found you.<br>
+              And I’m even happier that I get to call you <span>my Bubu.</span> 🧸❤️
+            </p>
+
+            <p>No matter how far we are right now, no matter how busy college gets, or how many silly dramas and zidd I bring along 😂😭, I hope you always know that you have a very special place in my heart.</p>
+
+            <p>Happy Birthday, Bubu. 🎂❤️<br>
+              Keep smiling, keep being the amazing person you are, and please never stop giving me those top-notch efforts that make me fall for you a little more every day. 🫶🏻
+            </p>
+
+            <p class="letter-emphasis">I love you bowwwww badhuuuu. ❤️😭🫂</p>
+
+            <p>Very soon, no more missing each other from far away — just <strong>you, me, our dates, our sneakouts, and a whole lot of memories waiting to happen.</strong> 🥹❤️</p>
+
+            <p class="signature">Forever your Archi. 🧸❤️</p>
+
+            <div class="divider">✦ ♥ ✦</div>
+
+            <button class="primary-btn dark-btn next-btn" type="button">
+              One last thing... ❤️
+            </button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- SCREEN 10 -->
+    <section class="screen screen-final" id="screen-10">
+      <div id="particles" aria-hidden="true"></div>
+
+      <div class="content final-content">
+        <p class="eyebrow">You made it to the end...</p>
+
+        <button id="final-btn" class="heart-button" type="button">
+          Click me<br>❤️
+        </button>
+
+        <div id="final-reveal" class="hidden">
+          <h2 class="display-title">Happy Birthday, Pratik ❤️</h2>
+          <p class="body-copy">
+            No photos.<br>
+            No fancy gifts.<br>
+            Just a little piece of my heart, made for you.
+          </p>
+          <p class="section-title final-love">I love you bowwwww badhuuuu. 🧸❤️</p>
+          <p class="signature final-signature">Forever your Archi ❤️</p>
+
+          <button id="replay-btn" class="outline-btn" type="button">Replay Experience ↺</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">Made with love by Archi ❤️</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
